@@ -86,7 +86,7 @@ export default function Home() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold">Get in touch</h2>
               <p className="text-gray-400">
-                Fill out the form below and I'll get back to you as soon as possible.
+                Fill out the form below and I&apos;ll get back to you as soon as possible.
               </p>
             </div>
             <ContactForm />
