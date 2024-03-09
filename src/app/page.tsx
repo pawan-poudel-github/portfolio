@@ -14,10 +14,10 @@ export default function Home() {
   return (
     <>
       <section className="max-w-6xl mx-auto px-6 sm:px-0 p-4 relative">
-      <nav className="border-l-0 border-r-0  h-9 border-slate-500 border-2 rounded-sm flex items-center justify-center gap-x-4 p-2">
-<Link href={"#about"} className="hover:opacity-80">About</Link>
-<Link href={"#project"} className="hover:opacity-80">Projects</Link>
-<Link href={"#contact"} className="hover:opacity-80">Contact</Link>
+      <nav className="border-l-0 border-r-0  h-9 border-slate-500 border-2 rounded-sm flex items-center justify-center gap-x-4 py-4">
+<Link href={"#about"} className="text-sm hover:opacity-80">About</Link>
+<Link href={"#project"} className="text-sm hover:opacity-80">Projects</Link>
+<Link href={"#contact"} className="text-sm hover:opacity-80">Contact</Link>
       </nav>
         {/* Hero section  */}
         <div id="home" className="h-screen w-full flex-col-reverse gap-y-6  md:flex-row flex items-center justify-center md:justify-between ">
